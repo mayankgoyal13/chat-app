@@ -1,0 +1,36 @@
+### Register User
+# POST http://localhost:8000/api/users/register/
+# Content-Type: application/json
+
+# {
+#     "username": "kk",
+#     "email": "k@gmail.com",
+#     "first_name": "hh",
+#     "last_name": "hh",
+#     "phone_number": "1234543212",
+#     "password": "kkkkkkkk",
+#     "password2": "kkkkkkkk"
+# }
+
+
+# POST http://localhost:8000/api/users/login/
+# Content-Type: application/json
+
+# {
+#     "username": "Mayank139",
+#     "password": "Test@12345"
+# }
+
+
+# ### Search Users
+# GET http://localhost:8000/api/users/search/?query=4372993865
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI4MTAyNTkzLCJpYXQiOjE3MjgxMDIyOTMsImp0aSI6ImYyMjM0ZjU4NTM4NDQwOTM4OGEyOGM4NGRlZTE3M2U1IiwidXNlcl9pZCI6IjY3MDA3ZmY4OWY5OGQ3NjkzOTFiZWM4NCIsInVzZXJuYW1lIjoiTWF5YW5rMTM5In0.scPKmBzTxmPhN04LRE4QMROdGbgpl4akpNSaK06VT_o
+# Accept: application/json
+
+
+### Get Conversations
+GET http://localhost:8000/api/users/current/ HTTP/1.1
+# Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNzI4MTQ5MTMzLCJpYXQiOjE3MjgxNDg4MzMsImp0aSI6ImViNGQ3Y2M4YTJiZDRhZjdhYWFjMDY3NzY4MDZhYmY5IiwidXNlcl9pZCI6IjY3MDA3ZmY4OWY5OGQ3NjkzOTFiZWM4NCIsInVzZXJuYW1lIjoiTWF5YW5rMTM5In0.AVpyzRcVkDJBVoskakILmND3xlbbW9fSRwQ2iFhfe_Y
+Accept: application/json
+
+### This is a comment
